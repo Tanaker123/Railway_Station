@@ -8,7 +8,7 @@ import java.util.Properties;
 public class DatabaseConfig {
     private static final String URL = "jdbc:postgresql://localhost:5432/RailwayStation?useUnicode=true&characterEncoding=UTF-8";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "tanya123789";
+    private static final String PASSWORD = "***"; //Пароль
 
     public static Connection getConnection() throws SQLException {
         try {
